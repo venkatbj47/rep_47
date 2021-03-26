@@ -1,0 +1,111 @@
+{
+  "id": "23346e65-3d17-42a9-bfd5-b973b7f6b33e",
+  "version": "2.0",
+  "name": "MyIDETests",
+  "url": "https://www.ebay.com",
+  "tests": [{
+    "id": "54cc7457-9142-4c6e-9307-af95a7dfe8c1",
+    "name": "ebaySearchTest",
+    "commands": [{
+      "id": "89fe331a-c72c-4e73-9e55-52fec7e4c954",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc034948-d621-4367-bcf4-1edbe31eea2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4381046-b6ad-4849-ab93-be2cfa53cbfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-cat",
+      "targets": [
+        ["id=gh-cat", "id"],
+        ["name=_sacat", "name"],
+        ["css=#gh-cat", "css:finder"],
+        ["xpath=//select[@id='gh-cat']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-cat-box']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "606dd395-e618-446a-8f7f-d807a39d926d",
+      "comment": "",
+      "command": "select",
+      "target": "id=gh-cat",
+      "targets": [],
+      "value": "label=Cameras & Photo"
+    }, {
+      "id": "f237a85a-8a2b-4e2e-a2d5-e1df14c52fd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-cat",
+      "targets": [
+        ["id=gh-cat", "id"],
+        ["name=_sacat", "name"],
+        ["css=#gh-cat", "css:finder"],
+        ["xpath=//select[@id='gh-cat']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-cat-box']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6385a64d-ff78-4272-bcf0-4ff94f91b62c",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "490bbc15-0e15-4659-a93f-4be7163c3a73",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "sony"
+    }, {
+      "id": "f6a91b47-91ae-43f3-8ed5-3b1b8c341549",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89d63535-41e7-46de-9ae4-86b04acd05cf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54cc7457-9142-4c6e-9307-af95a7dfe8c1"]
+  }],
+  "urls": ["https://www.ebay.com/"],
+  "plugins": []
+}
